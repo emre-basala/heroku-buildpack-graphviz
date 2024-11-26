@@ -24,7 +24,7 @@ cd "$1"
 
 # URLs of the Ubuntu packages to install (see DEVELOPMENT.md for how to obtain them)
 case "$STACK" in
-  heroku-22)
+  heroku-24)
     # See https://packages.ubuntu.com/focal/graphviz
     package_urls=(http://archive.ubuntu.com/ubuntu/pool/main/f/fonts-liberation/fonts-liberation_1.07.4-11_all.deb
 http://archive.ubuntu.com/ubuntu/pool/universe/a/ann/libann0_1.1.2%2bdoc-7build1_amd64.deb
@@ -111,7 +111,7 @@ case "$STACK" in
     libs_dir=$install_dir/usr/lib/x86_64-linux-gnu ;;
   heroku-20)
     libs_dir=$install_dir/usr/lib/x86_64-linux-gnu ;;
-  heroku-22)
+  heroku-24)
     libs_dir=$install_dir/usr/lib/x86_64-linux-gnu ;;
 esac
 
